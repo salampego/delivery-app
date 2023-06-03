@@ -1,0 +1,65 @@
+.findOrderList {
+  margin-top: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  max-height: 400px;
+  overflow: auto;
+  padding: 20px;
+}
+
+.findOrderList-List {
+  display: flex;
+  border: 1px solid;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.findOrderList-wrapper {
+  width: 400px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+.findOrderList__info-title {
+  margin-bottom: 5px;
+}
+.findOrderList__info-title:last-child {
+  margin-bottom: 0;
+}
+
+.findOrderList__item {
+  display: flex;
+  border: 1px solid;
+  margin-bottom: 10px;
+}
+
+.findOrderList__item:last-child {
+  margin-bottom: 0;
+}
+
+.findOrderList__item-info {
+  margin-left: 15px;
+}
+
+.findOrderList__item-title {
+  max-width: 180px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1170px) {
+  .findOrderList-List {
+    flex-direction: column-reverse;
+  }
+  .findOrderList__info {
+    margin-bottom: 20px;
+  }
+  .findOrderList-wrapper {
+    width: 100%;
+  }
+  .findOrderList__item {
+    flex-direction: column;
+  }
+  .findOrderList__item-info {
+    margin-bottom: 15px;
+  }
+}

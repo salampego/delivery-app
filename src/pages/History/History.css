@@ -1,0 +1,63 @@
+.history {
+  margin: 100px 0;
+}
+
+.history__form {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.history__list {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.history__item {
+  margin-bottom: 25px;
+}
+
+.history__item:last-child {
+  margin-bottom: 0;
+}
+
+.history__label {
+  display: flex;
+  flex-direction: column;
+}
+
+.history__input {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.history__submit-wrapper {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.history__submit-btn {
+  margin-left: 10px;
+  background-color: #f9b300;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.75;
+  outline: 0;
+  padding: 8px 40px;
+  text-align: center;
+}
+
+.history__submit-btn:hover {
+  opacity: 0.7;
+}

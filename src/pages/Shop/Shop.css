@@ -1,0 +1,49 @@
+.shop {
+  margin-top: 100px;
+}
+
+.shop__wrapper {
+  grid-gap: 24px;
+  display: grid;
+  gap: 24px;
+  grid-template-columns: 30% 1fr;
+}
+
+@media screen and (max-width: 1170px) {
+  .shop__wrapper {
+    gap: 24px;
+    grid-template-columns: 100%;
+  }
+}
+
+.restraunt__list {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  min-width: 160px;
+  margin-right: 20px;
+}
+
+.restraunt__item {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  background: #f9b300;
+  border-radius: 20px;
+}
+
+.restraunt__item:hover {
+  opacity: 0.8;
+}
+
+.restraunt__item:last-child {
+  margin-bottom: 0;
+}
+
+.restraunt__item--btn {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: transparent;
+  cursor: pointer;
+  padding: 20px;
+}

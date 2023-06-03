@@ -1,0 +1,21 @@
+.nav__link {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  padding: 0 0 4px;
+  font-size: 16px;
+  color: #000;
+}
+.nav__link:not(:last-child) {
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav__link {
+    color: #fff;
+  }
+}
