@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/shop/static/css/main.cd2dacec.css",
-    "main.js": "/shop/static/js/main.e7ceeb6a.js",
-    "static/media/HeroMain.jpg": "/shop/static/media/HeroMain.5fcd27fb30a4bc805c84.jpg",
-    "static/media/HeroMain.webp": "/shop/static/media/HeroMain.2a139505c8b8e204fc3b.webp",
-    "static/media/logo.svg": "/shop/static/media/logo.96a3df5a20672ce48d4eb3e9c829f0ba.svg",
-    "index.html": "/shop/index.html",
-    "static/media/mobile-menu.svg": "/shop/static/media/mobile-menu.ed16d687997909d818ec1803b33f7e92.svg",
-    "static/media/mobile-menu-cross.svg": "/shop/static/media/mobile-menu-cross.52587cdb2a32b7c5a0c6b7182dee155d.svg",
-    "main.cd2dacec.css.map": "/shop/static/css/main.cd2dacec.css.map",
-    "main.e7ceeb6a.js.map": "/shop/static/js/main.e7ceeb6a.js.map"
+    "main.css": "/delivery-app/static/css/main.a6a37d36.css",
+    "main.js": "/delivery-app/static/js/main.06577959.js",
+    "static/media/HeroMain.jpg": "/delivery-app/static/media/HeroMain.5fcd27fb30a4bc805c84.jpg",
+    "static/media/HeroMain.webp": "/delivery-app/static/media/HeroMain.2a139505c8b8e204fc3b.webp",
+    "static/media/logo.svg": "/delivery-app/static/media/logo.96a3df5a20672ce48d4eb3e9c829f0ba.svg",
+    "index.html": "/delivery-app/index.html",
+    "static/media/mobile-menu.svg": "/delivery-app/static/media/mobile-menu.ed16d687997909d818ec1803b33f7e92.svg",
+    "static/media/mobile-menu-cross.svg": "/delivery-app/static/media/mobile-menu-cross.52587cdb2a32b7c5a0c6b7182dee155d.svg",
+    "main.a6a37d36.css.map": "/delivery-app/static/css/main.a6a37d36.css.map",
+    "main.06577959.js.map": "/delivery-app/static/js/main.06577959.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd2dacec.css",
-    "static/js/main.e7ceeb6a.js"
+    "static/css/main.a6a37d36.css",
+    "static/js/main.06577959.js"
   ]
 }
