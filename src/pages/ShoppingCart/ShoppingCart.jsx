@@ -48,6 +48,7 @@ export const ShoppingCart = () => {
     const order = basket.map((item) => {
       const updatedItem = { ...item };
       delete updatedItem._id;
+      delete updatedItem.initialPrice;
       return updatedItem;
     });
 
