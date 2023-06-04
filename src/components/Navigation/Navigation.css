@@ -16,6 +16,10 @@
     flex-direction: column;
   }
   .nav__link {
+    margin-bottom: 10px;
     color: #fff;
+  }
+  .nav__link:last-child {
+    margin-bottom: 0;
   }
 }
