@@ -9,7 +9,7 @@ import { Loader } from "../../components/Loader/Loader";
 import "./Shop.css";
 import { ProductList } from "../../components";
 
-export const Shop = () => {
+const Shop = () => {
   const dispatch = useDispatch();
   const item = useSelector(getItem);
   const isLoad = useSelector(getLoading);
@@ -59,3 +59,5 @@ export const Shop = () => {
     </section>
   );
 };
+
+export default Shop;

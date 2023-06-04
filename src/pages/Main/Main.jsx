@@ -1,9 +1,11 @@
 import { Hero } from "../../components";
 
-export const Main = () => {
+const Main = () => {
   return (
     <>
       <Hero />
     </>
   );
 };
+
+export default Main;

@@ -8,7 +8,7 @@ import { createOrder } from "../../redux/basket/operations";
 import { removeOrder } from "../../redux/basket/sliceBasket";
 import { Formik } from "formik";
 
-export const ShoppingCart = () => {
+const ShoppingCart = () => {
   const dispatch = useDispatch();
 
   const schema = yup.object().shape({
@@ -124,3 +124,5 @@ export const ShoppingCart = () => {
     </section>
   );
 };
+
+export default ShoppingCart;

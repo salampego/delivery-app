@@ -1,7 +1,11 @@
+import { lazy } from "react";
 import { Route, Routes } from "react-router-dom";
 import { Header } from "./components";
-import { History, Main, Shop } from "./pages";
-import { ShoppingCart } from "./pages/ShoppingCart/ShoppingCart";
+
+const History = lazy(() => import("./pages/History/History"));
+const Main = lazy(() => import("./pages/Main/Main"));
+const Shop = lazy(() => import("./pages/Shop/Shop"));
+const ShoppingCart = lazy(() => import("./pages/ShoppingCart/ShoppingCart"));
 
 function App() {
   return (

@@ -7,7 +7,7 @@ import { getLoadingBasket } from "../../redux/selectors";
 import { Loader } from "../../components/Loader/Loader";
 import { findOrder } from "../../redux/basket/operations";
 
-export const History = () => {
+const History = () => {
   const dispatch = useDispatch();
   const isLoad = useSelector(getLoadingBasket);
 
@@ -86,3 +86,5 @@ export const History = () => {
     </section>
   );
 };
+
+export default History;
