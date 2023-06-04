@@ -1,11 +1,8 @@
-import { lazy } from "react";
 import { Route, Routes } from "react-router-dom";
 import { Header } from "./components";
+import { History, Main, Shop } from "./pages";
+import { ShoppingCart } from "./pages/ShoppingCart/ShoppingCart";
 
-const Main = lazy(() => import("./pages"));
-const Shop = lazy(() => import("./pages"));
-const ShoppingCart = lazy(() => import("./pages"));
-const History = lazy(() => import("./pages"));
 function App() {
   return (
     <Routes>
