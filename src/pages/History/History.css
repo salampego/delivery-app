@@ -44,6 +44,7 @@
 }
 
 .history__submit-btn {
+  min-width: 180px;
   margin-left: 10px;
   background-color: #f9b300;
   color: #fff;
