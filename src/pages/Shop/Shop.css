@@ -9,13 +9,6 @@
   grid-template-columns: 30% 1fr;
 }
 
-@media screen and (max-width: 1170px) {
-  .shop__wrapper {
-    gap: 24px;
-    grid-template-columns: 100%;
-  }
-}
-
 .restraunt__list {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   padding: 24px;
@@ -46,4 +39,15 @@
   border: transparent;
   cursor: pointer;
   padding: 20px;
+}
+
+@media screen and (max-width: 1170px) {
+  .shop__wrapper {
+    gap: 24px;
+    grid-template-columns: 100%;
+  }
+
+  .restraunt__list {
+    margin-right: 0;
+  }
 }
